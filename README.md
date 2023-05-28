@@ -24,7 +24,7 @@ El proyecto sigue una estructura de archivos y carpetas comúnmente utilizada en
 
 ## Contribuciones
 Gracias a los siguientes contribuidores por:
-- embedded.fm y Steph Piper por los temas y el formato
+- [embedded.fm](https://embedded.fm/) y Steph Piper por los temas y el formato
 - [Leonidaz](https://github.com/orgs/CoDePretzel/people/HerLeonidaz) por traer el formato a la comunidad
 - [Rafael](https://www.linkedin.com/in/rafaelkarosuo/) por comenzar el port a la version web
 Siéntete libre de contribuir a este proyecto abriendo problemas o enviando solicitudes de extracción. Agradecemos cualquier sugerencia, corrección o mejora que desees compartir.
