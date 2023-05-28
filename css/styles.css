@@ -143,8 +143,16 @@ body {
   background: linear-gradient(hsl(215, 80%, 35%), hsl(0, 0%, 95%));
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
+}
+
+.vertical-text {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  white-space: nowrap;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .triangle-down {
@@ -159,7 +167,7 @@ body {
 
 .page-container {
   display: grid;
-  grid-template-columns: 10% 100%;
+  grid-template-columns: 10% 100% 10%;
   align-items: center;
 }
 
@@ -169,4 +177,75 @@ body {
 
 .container-center-col {
   grid-column: 2;
+}
+
+/*------------*/
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 15vh;  
+}
+
+.header-section .main-title {
+  font-weight: bold;
+  font-size: 5em;
+  color: black;
+  margin-bottom: 0.1em;
+}
+
+.header-section .secondary-title {
+  background-color: black;
+  color: white;
+  padding: 0.2em;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.header-section .description-text {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 1.2em;
+}
+
+
+/*--------------*/
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-tree-header-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-dark-outlined-icons{
+  color: black;
+
+}
+
+.skill-tree-header-container{
+  display: grid;
+  grid-template-columns: 10% 100%;
+  align-items: center;
+}
+
+.header-left-col {
+  grid-column: 1;
+}
+
+.header-center-col {
+  grid-column: 2;
+}
+
+.header-center-col {
+  grid-column: 3;
 }
