@@ -28,7 +28,6 @@ body {
   margin: 2px 19px;
   background-color: hsl(215, 80%, 35%);
   text-align: center;
-  /*border: 2px solid red; /* Set border style, width, and color */
 }
 
 .hexagon,
@@ -181,13 +180,24 @@ body {
 
 /*------------*/
 
+
+.square-image {
+  width: 100%;
+  object-fit: cover;
+}
+
 .header-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  /* background-color: #ccc; */
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-left: 15vh;  
+}
+
+.header-grid-item {
+  /* background-color: #ccc; */
+  text-align: center;
 }
 
 .header-section .main-title {
@@ -200,7 +210,6 @@ body {
 .header-section .secondary-title {
   background-color: black;
   color: white;
-  padding: 0.2em;
   font-size: 2.5em;
   font-weight: normal;
   margin-bottom: 0.5em;
@@ -232,10 +241,10 @@ body {
 
 }
 
-.skill-tree-header-container{
+.header-grid-container{  
   display: grid;
-  grid-template-columns: 10% 100%;
-  align-items: center;
+  grid-template-columns: 10% 90%;
+  /* width: 100vh; */
 }
 
 .header-left-col {
