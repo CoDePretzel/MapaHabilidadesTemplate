@@ -127,15 +127,15 @@
   color: hsl(0, 0%, 90%);  
 }
 
-.hexanone {
+.hexagon {
   position: relative;
   display: inline-block;
-  width: 4rem;
-  height: 8rem;
+  width: 67px;
+  height: 116px;
   margin: 1px 18px;    
 }
 
-.hexanone:nth-child(even) {
+.hexagon:nth-child(even) {
   top: 59px;    
 }
 
