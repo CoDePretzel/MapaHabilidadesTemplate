@@ -130,8 +130,8 @@
 .hexanone {
   position: relative;
   display: inline-block;
-  width: 67px;
-  height: 116px;
+  width: 4rem;
+  height: 8rem;
   margin: 1px 18px;    
 }
 
@@ -145,17 +145,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140%;
-  font-size: .9rem;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.1;
   color: cornsilk;
   z-index: 100;    
 }
 
-.ibws-fix {
-  /* inline-block whitespace fix */
-  font-size: 0;  
-}
 
 .honeycomb {
   margin: 0 auto;
