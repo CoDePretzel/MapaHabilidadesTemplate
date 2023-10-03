@@ -1,5 +1,5 @@
 /*--------------*/
-
+/* 
 .page-container {
     display: grid;
     grid-template-columns: 10% 100% 10%;
@@ -12,7 +12,7 @@
   
   .container-center-col {
     grid-column: 2;
-  }
+  } */
 
   /*--------------*/
 
@@ -102,15 +102,15 @@
   transform: rotate(60deg); */
 }
 
-.hexagon:nth-child(even) {
+/* .hexagon:nth-child(even) { */
   /* top approx. 50% of .hexagon height + spacing */
   /* top: 59px;     */
-}
+/* } */
 
 .hexagon:hover {
-  background-color: hsla(197, 100%, 42%);
+  /* background-color: hsla(197, 100%, 42%);
   cursor: pointer;
-  z-index: 105;
+  z-index: 105; */
 }
 
 .hexagon:active {
@@ -245,6 +245,8 @@
   display: flex;
   --s:100px;/* size  */
   --m:4px;  /* margin */
+  --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px); 
+
 }
 
 .container {
@@ -256,4 +258,14 @@
   height: calc(var(--s) * 1.1547);
   display: inline-block;
   font-size: initial;
-  clip-path: polygon(25% 0%, 76% 0, 100% 51%, 73% 100%, 25% 100%, 0% 50%);}
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  margin-bottom: calc(var(--m) - var(--s) * 0.2886); /* some negative margin to create overlap */
+}
+
+.container::before{
+  content: "";
+  width: calc(var(--s)/2 + var(--m));
+  float: left;
+  height: 120%;
+  shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px), #000 0 var(--f));
+}
