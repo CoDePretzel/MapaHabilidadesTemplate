@@ -285,5 +285,11 @@
 }
 
 .width-icons{
-  width: 200px;
+  width: 50%;
+}
+
+.flecha{
+  width: 80%;
+  height: 70rem;
+  padding: 5%
 }
