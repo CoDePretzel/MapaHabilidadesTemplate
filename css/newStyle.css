@@ -74,15 +74,27 @@
   }
   
   /*--------------*/
-  
-  .hexagon {
-  /* position: relative; */
-  /* display: inline-block;   */
-  /* left/right margin approx. 25% of .hexagon width + spacing */
-  /* margin: 2px 19px; */
-  background-color: hsl(215, 80%, 35%);
-  /* text-align: center; */
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f4f4f4; /* Color de fondo del cuerpo de la página */
 }
+
+.hexagon {
+    fill: #f0d41e; /* Color amarillo del hexágono */
+    stroke: #b39c0e; /* Color del borde del hexágono */
+    stroke-width: 3; /* Ancho del borde del hexágono */
+}
+/*   
+  .hexagon {
+  position: relative; 
+  display: inline-block;  
+  left/right margin approx. 25% of .hexagon width + spacing 
+  margin: 2px 19px; 
+  background-color: hsl(215, 80%, 35%);
+  text-align: center;
+}*/
 
 .hexagon,
 .hexagon::before,
@@ -299,6 +311,11 @@
 }
 
 .flecha{
+  max-width: 100%;
+  height: auto;
+}
+
+.img-hexagons{
   max-width: 100%;
   height: auto;
 }

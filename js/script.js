@@ -103,26 +103,3 @@ function createHoneycomb() {
 
 // Call the function to create honeycomb on page load
 window.onload = createHoneycomb;
-
-
-function imprimirDoc(contenido){
-    var ventana = window.open('','PRINT','height=400, width=600');
-    ventana.document.write('<html><head><title>' + document.title + '</title>');
-    ventana.document.write('<link rel="stylesheet" href="newStyle.css">'); //Cargamos otra hoja, no la normal
-    ventana.document.write('</head><body>');
-    ventana.document.write(contenido.innerHTML);
-    ventana.document.write(contenido.honeycombContainer.innerHTML);
-    ventana.document.write('</body></html>');
-    ventana.document.close();
-    ventana.focus();
-    ventana.onload = function(){
-        ventana.print();
-        ventana.close();
-    }
-    return true;
-}
-
-document.querySelector("#btnImprimir").addEventListener("click",function(){
-    var div = document.querySelector("#imprimible");
-    imprimirDoc(div);
-})
