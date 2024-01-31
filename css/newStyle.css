@@ -50,3 +50,12 @@ img {
     max-width:400px;
 }
 
+
+.description-block{
+    background-color:black;
+    color:whitesmoke;
+}
+
+h1{
+    text-align:center;
+}
