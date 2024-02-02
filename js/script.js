@@ -74,17 +74,17 @@ var hexagonData = [
 ];
 
 function createHoneycomb() {
-    var honeycombContainer = document.querySelector('.honeycomb');
-    var container = document.createElement('div');
-    container.className = 'container';
-    honeycombContainer.appendChild(container);
+    var honeycombContainer = document.querySelector('.hexagons');
+    var ibwsFixContainer = document.createElement('div');
+    ibwsFixContainer.className = 'ibws-fix';
+    honeycombContainer.appendChild(ibwsFixContainer);
 
     hexagonData.forEach(function (data) {
         var hexagonContainer = document.createElement('div');
         hexagonContainer.className = 'hexagon';
 
-        // var hexagonContent = document.createElement('div');
-        // hexagonContent.className = 'hexagontent';
+        var hexagonContent = document.createElement('div');
+        hexagonContent.className = 'hexagontent';
 
         var iconElement = document.createElement('span');
         iconElement.className = 'material-symbols-outlined';
@@ -93,11 +93,11 @@ function createHoneycomb() {
         var textElement = document.createElement('span');
         textElement.textContent = data.content;
 
-        // hexagonContent.appendChild(textElement);
-        // hexagonContent.appendChild(iconElement);
+        hexagonContent.appendChild(textElement);
+        hexagonContent.appendChild(iconElement);
 
-        // hexagonContainer.appendChild(hexagonContent);
-        container.appendChild(hexagonContainer);
+        hexagonContainer.appendChild(hexagonContent);
+        ibwsFixContainer.appendChild(hexagonContainer);
     });
 }
 

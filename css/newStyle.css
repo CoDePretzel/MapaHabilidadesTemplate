@@ -36,13 +36,14 @@ img {
 
 
 .arrow{
-  width:20%;
+  width:15%;
   max-width: 400px;
 }
 
 .hexagons{
-    width:70%;
-    max-width:700px;
+    width:80%;
+    max-width:800px;
+    padding-block-start:0;
 }
 
 .code-pretzel, .circuit-board{
@@ -58,4 +59,113 @@ img {
 
 h1{
     text-align:center;
+}
+
+
+
+.hexagon {
+  position: relative;
+  display: inline-block;  
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 2px 19px;
+  background-color: hsl(215, 80%, 35%);
+  text-align: center;
+}
+
+.hexagon,
+.hexagon::before,
+.hexagon::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+  width: 67px;
+  height: 116px;
+  border-radius: 0;    
+}
+
+.hexagon::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+
+.hexagon::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
+
+.hexagon:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: 59px;    
+}
+
+.hexagon:hover {
+  background-color: hsla(197, 100%, 42%);
+  cursor: pointer;
+  z-index: 105;
+}
+
+.hexagon:active {
+  background-color: hsla(60, 75%, 50%, 1.0);
+  z-index: 110;
+}
+
+.hexagon .icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: hsl(0, 0%, 90%);  
+}
+
+.hexanone {
+  position: relative;
+  display: inline-block;
+  width: 67px;
+  height: 116px;
+  margin: 1px 18px;    
+}
+
+.hexanone:nth-child(even) {
+  top: 59px;    
+}
+
+.hexagontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140%;
+    font-size: .9rem;
+    color: whitesmoke;
+    line-height: 1.2;
+    z-index: 100;
+}
+
+.ibws-fix {
+  /* inline-block whitespace fix */
+  font-size: 0;  
+}
+
+.hexagons {
+  margin: 0 auto;
+  text-align: center;  
+}
+
+
+/*----------*/
+
+
+.container-center-col {
+    grid-column: 2;
+}
+
+.container-left-col {
+    grid-column: 1;
 }
