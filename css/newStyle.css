@@ -180,7 +180,7 @@ h1{
 }
 
 
-@media (max-width:599px){
+@media (max-width:999px){
 
     .row {
         display: block;
@@ -203,12 +203,13 @@ h1{
 
 
     .arrow {
-        width: 80%;
-        margin-left:0%;
+        width: 100%;
+        margin-left:2em;
+        margin-bottom:2em;
     }
     .arrow__img {
-        padding-top: 2em;
-        padding-right:10em;
+        padding-top: .1em;
+        padding-left:2em;
 
     }
 
