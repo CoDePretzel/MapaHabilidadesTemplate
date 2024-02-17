@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="42.970497mm"
-   height="246.64102mm"
-   viewBox="0 0 42.970497 246.64102"
+   width="50.223137mm"
+   height="492.44147mm"
+   viewBox="0 0 50.223137 492.44146"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="flecha.svg"
-   inkscape:export-filename="flecha1.svg"
+   sodipodi:docname="flechaHorizontal.svg"
+   inkscape:export-filename="flecha.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,9 +29,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="0.37282198"
-     inkscape:cx="861.00074"
-     inkscape:cy="826.13155"
+     inkscape:zoom="0.5272499"
+     inkscape:cx="-153.62734"
+     inkscape:cy="925.55731"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -42,7 +42,7 @@
        type="xygrid"
        id="grid236" />
     <sodipodi:guide
-       position="21.438005,163.89368"
+       position="23.794596,403.7443"
        orientation="1,0"
        id="guide444"
        inkscape:locked="false" />
@@ -72,7 +72,7 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(4.5142928,0,0,6.9839914,-183.77446,-506.36383)" />
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter1413"
        x="-0.46748853"
@@ -145,43 +145,43 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-30.745463,-30.712335)">
+     transform="translate(-28.388871,-24.762511)">
     <path
        style="fill:url(#linearGradient1184);fill-opacity:1;stroke:none;stroke-width:0.555098;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter1413)"
        d="M 44.318565,66.562822 38.653717,66.437368 51.746932,30.989857 68.2773,66.466799 l -7.010798,-0.08048 0.745263,411.897751 6.240764,-0.47126 -16.466537,35.24529 -14.311587,-35.0397 6.844169,0.0144 z"
        id="path238"
        sodipodi:nodetypes="ccccccccccc"
-       transform="matrix(0.82023346,0,0,0.94180803,9.4624722,9.1380501)" />
+       transform="matrix(0,-0.82023346,0.94180803,0,-203.36135,308.70296)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="text"
-     transform="translate(-30.745463,-30.712335)"
+     transform="translate(-28.388871,-24.762511)"
      style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:8.73976px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:end;direction:rtl;text-anchor:end;fill:#cccccc;stroke-width:3.09677;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-       x="-109.37167"
-       y="49.376186"
+       x="-148.92125"
+       y="239.00093"
        id="text1978"
-       transform="matrix(0,-0.8918313,1.1212883,0,0,0)"><tspan
+       transform="scale(0.8918313,1.1212883)"><tspan
          sodipodi:role="line"
          id="tspan1976"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.73976px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#ffffff;stroke-width:3.09677"
-         x="-109.37167"
-         y="49.376186">Avanzado</tspan></text>
+         x="-148.92125"
+         y="239.00093">Avanzado</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.87335px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:end;direction:rtl;text-anchor:end;white-space:pre;inline-size:64.1666;display:inline;fill:#cccccc;stroke-width:3.94174;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
        x="-260.00223"
        y="49.044159"
        id="text1978-6"
-       transform="matrix(0,-0.89855051,1.1129035,0,0,0)"><tspan
+       transform="matrix(0.89855051,0,0,1.1129035,444.48917,213.14333)"><tspan
          x="-260.00223"
          y="49.044159"
-         id="tspan720"><tspan
+         id="tspan343"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Calibri Bold';fill:#1a1a1a"
-           id="tspan718">Principiante</tspan></tspan></text>
+           id="tspan341">Principiante</tspan></tspan></text>
   </g>
 </svg>

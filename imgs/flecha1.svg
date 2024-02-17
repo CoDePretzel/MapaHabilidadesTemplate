@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="42.970497mm"
-   height="246.64102mm"
-   viewBox="0 0 42.970497 246.64102"
+   width="50.223137mm"
+   height="492.44147mm"
+   viewBox="0 0 50.223137 492.44146"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="flecha.svg"
-   inkscape:export-filename="flecha1.svg"
+   inkscape:export-filename="flecha.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,9 +29,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="0.37282198"
-     inkscape:cx="861.00074"
-     inkscape:cy="826.13155"
+     inkscape:zoom="2.1089996"
+     inkscape:cx="279.27933"
+     inkscape:cy="766.24007"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -42,7 +42,7 @@
        type="xygrid"
        id="grid236" />
     <sodipodi:guide
-       position="21.438005,163.89368"
+       position="23.794596,403.7443"
        orientation="1,0"
        id="guide444"
        inkscape:locked="false" />
@@ -72,12 +72,12 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(4.5142928,0,0,6.9839914,-183.77446,-506.36383)" />
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter1413"
        x="-0.46748853"
        y="-0.029871289"
-       width="1.9878096"
+       width="1.9878097"
        height="1.0846353">
       <feFlood
          flood-opacity="2.7755575615628914e-17"
@@ -145,7 +145,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-30.745463,-30.712335)">
+     transform="translate(-28.388871,-24.762511)">
     <path
        style="fill:url(#linearGradient1184);fill-opacity:1;stroke:none;stroke-width:0.555098;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke;filter:url(#filter1413)"
        d="M 44.318565,66.562822 38.653717,66.437368 51.746932,30.989857 68.2773,66.466799 l -7.010798,-0.08048 0.745263,411.897751 6.240764,-0.47126 -16.466537,35.24529 -14.311587,-35.0397 6.844169,0.0144 z"
@@ -157,7 +157,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="text"
-     transform="translate(-30.745463,-30.712335)"
+     transform="translate(-28.388871,-24.762511)"
      style="display:inline">
     <text
        xml:space="preserve"
@@ -180,8 +180,8 @@
        transform="matrix(0,-0.89855051,1.1129035,0,0,0)"><tspan
          x="-260.00223"
          y="49.044159"
-         id="tspan720"><tspan
+         id="tspan688"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Calibri Bold';fill:#1a1a1a"
-           id="tspan718">Principiante</tspan></tspan></text>
+           id="tspan686">Principiante</tspan></tspan></text>
   </g>
 </svg>

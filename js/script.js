@@ -3,78 +3,78 @@ let clickedItems = JSON.parse(localStorage.getItem('clickedItems')) || [];
 
 
 var hexagonData = [
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men" },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
     { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
-    { icon: 'memory_alt', content: "1. IF you can keep your head when all about you" },
-    { icon: 'favorite', content: "2. Being lied about, and blaming it on" },
-    { icon: 'star', content: "3. If you can trust yourself when all men doubt you," },
-    { icon: 'favorite_border', content: "4. But make allowance for their doubting too;" },
-    { icon: 'star_border', content: "5. If you can wait and not be tired by waiting," },
-    { icon: 'grade', content: "6. being lied about, don't deal in lies," },
-    { icon: 'thumb_up', content: "7. being hated, don't give way to hating," },
-    { icon: 'thumb_down', content: "8. And yet don't look too good, nor talk too wise:" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
+    { icon: 'memory_alt', content: "IF you can keep your head when all about you" },
+    { icon: 'favorite', content: "Being lied about, and blaming it on" },
+    { icon: 'star', content: "If you can trust yourself when all men doubt you," },
+    { icon: 'favorite_border', content: "But make allowance for their doubting too;" },
+    { icon: 'star_border', content: "If you can wait and not be tired by waiting," },
+    { icon: 'grade', content: "being lied about, don't deal in lies," },
+    { icon: 'thumb_up', content: "being hated, don't give way to hating," },
+    { icon: 'thumb_down', content: "And yet don't look too good, nor talk too wise:" },
 ];
 
 // Function to toggle background color and update clicked items
@@ -99,35 +99,29 @@ function toggleBackgroundColor(event) {
 
 
 function createHoneycomb() {
-    var honeycombContainer = document.querySelector('.hexagons');
+    var honeycombContainer = document.querySelector('.content');
     var ibwsFixContainer = document.createElement('div');
-    ibwsFixContainer.className = 'ibws-fix';
+    ibwsFixContainer.className = 'skills';
     honeycombContainer.appendChild(ibwsFixContainer);
 
     var i = 0;
     hexagonData.forEach(function (data) {
-        var hexagonContainer = document.createElement('div');
-        hexagonContainer.className = 'hexagon';
-        hexagonContainer.id = "hexagon" + i;
+        var skills = document.createElement('button');
+        skills.className = 'skill-btn';
+        skills.id = "skill" + i;
+        skills.innerHTML = i + ". " + data.content;
+        //skills.textContent = data.icon;
         i++;
 
-        hexagonContainer.addEventListener('click', toggleBackgroundColor);
-
-        var hexagonContent = document.createElement('div');
-        hexagonContent.className = 'hexagontent';
+        skills.addEventListener('click', toggleBackgroundColor);
 
         var iconElement = document.createElement('span');
         iconElement.className = 'material-symbols-outlined';
         iconElement.textContent = data.icon;
 
-        var textElement = document.createElement('span');
-        textElement.textContent = data.content;
+        skills.appendChild(iconElement);
 
-        hexagonContent.appendChild(textElement);
-        hexagonContent.appendChild(iconElement);
-
-        hexagonContainer.appendChild(hexagonContent);
-        ibwsFixContainer.appendChild(hexagonContainer);
+        ibwsFixContainer.appendChild(skills);
     });
 
 }
@@ -138,7 +132,7 @@ window.onload = createHoneycomb;
 document.addEventListener('DOMContentLoaded', function () {
 
     // Add event listeners to each item
-    let items = document.querySelectorAll('.hexagon');
+    let items = document.querySelectorAll('.skill-btn');
     items.forEach(item => {
         item.addEventListener('click', toggleBackgroundColor);
         // Check if item was previously clicked and update background color accordingly
