@@ -258,3 +258,11 @@ body {
 .header-center-col {
   grid-column: 3;
 }
+
+@media (max-width: 600px) {
+  .hex {
+    width: 80px; /* Reduce el tamaño en pantallas pequeñas */
+  }
+}
+
+
